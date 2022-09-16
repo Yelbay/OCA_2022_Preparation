@@ -14,9 +14,8 @@ public class Q023 {
 		case 'y':
 			color = 1;  // doesn't result error because color is initialized in the switch block
 
-			System.out.println(color);
 		}
-	 // cannot read the variable, created in the switch block
+		//System.out.println(color);// cannot read the variable, created in the switch block
 	}
 }
 //What is the result?

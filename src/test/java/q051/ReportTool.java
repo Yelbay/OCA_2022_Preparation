@@ -4,6 +4,9 @@ interface Exportable{
 	  void export();
 }
 class Tool implements Exportable{
+	public Tool(){
+		//System.out.println("constructor");
+	}
 	//public yerinde protected var normalde
 	public void export() {						// line n1
 

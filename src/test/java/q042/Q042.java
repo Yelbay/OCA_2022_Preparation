@@ -9,8 +9,8 @@ public class Q042 {
 
 		System.out.println("before delete: " + sb);
 		
-		sb.delete(1, sb.length());
-		
+		sb.delete(1,sb.length() );
+		//sb.deleteCharAt(1);
 		System.out.println("after delete: " + sb);
 
 	}

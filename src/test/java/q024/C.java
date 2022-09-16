@@ -18,9 +18,9 @@ class C extends B{
 		System.out.print("C");
 	}
 	public static void main(String[] args) {
-
+     // B b=new B();
 		C c = new C();
-		A a = new A();
+		//A a = new A();
 	}
 }
 

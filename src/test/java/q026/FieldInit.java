@@ -1,13 +1,17 @@
 package q026;
 
 public class FieldInit {
-	Character c;
+	Integer i;
+	Character c;//if it is wrapper class then always null
+	char ch;
 	boolean b;
 	float f;
 	void printAll() {
-		System.out.println("c = " + c);
-		System.out.println("b = " + b);
-		System.out.println("f = " + f);
+		System.out.println("c = " + c);//null
+		System.out.println("b = " + b);//false
+		System.out.println("f = " + f);//0.0
+		System.out.println("i = " + i);//null
+		System.out.println("ch = " + ch);
 	}
 	public static void main(String[] args) {
 		FieldInit f = new FieldInit();

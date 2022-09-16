@@ -20,7 +20,7 @@ class Vehicle{
 		super(y); 
 		this.y =y;
 
-		System.out.println(x);
+		//System.out.println(x);
 	}
 
 	public String toString() {

@@ -11,10 +11,10 @@ public class X {
 		x2.i= 5;
 		x2.j = 6;
 		System.out.println(
-				x1.i + " " + 
+				x1.i + " " +
 				x1.j + " " + 
 				x2.i + " " + 
-				x2.j);
+				x2.j);//C.5 4 5 6
 	}
 }
 //What is the result?

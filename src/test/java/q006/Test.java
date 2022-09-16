@@ -4,7 +4,7 @@ import java.io.IOException;
 class X{
 		public void printFileContent() throws IOException {
 			/*code goes here */
-			throw new IOException();
+			//throw new IOException();
 		}
 	}
 public class Test {
