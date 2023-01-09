@@ -9,6 +9,7 @@ public class Q008 {
 				System.out.print(arr[i][j]+ " " );
 				if (arr[i][j].equals("B")) {
 					continue; //bir etkisi yok
+
 				}
 			}
 		continue;

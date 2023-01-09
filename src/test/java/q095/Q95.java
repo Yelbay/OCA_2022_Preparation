@@ -18,9 +18,11 @@ class Shop {
 		List<Product> st = new ArrayList<>() ;
 		st.add(new Product(10, "IceCream")); //st deil 1st. hata verince st cevirdim.
 		st.add(new Product(11, "Chocolate"));
+
 		Product p1 = new Product(10, "IceCream");
+
 //		st.add(p1);
-		System.out.println(st.indexOf(p1));
+		System.out.println(st.indexOf(p1));//-1
 		System.out.println(st.indexOf(new Product(10, "IceCream")));
 		System.out.println(st.indexOf(new Product(11, "Chocolate")));
 		}

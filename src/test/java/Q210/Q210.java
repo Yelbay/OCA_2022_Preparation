@@ -13,15 +13,15 @@ public class Q210 {
         //Boolean s=p.apply(101);
         // System.out.println(s);
 //   B.
-//        Boolean s = p.test(101);
-//        System.out.println(s);
-     Boolean s=p.test(101);
-      if(s==true){
-           System.out.println("false");
-      }else{
-           System.out.println("true");
-      }
-// System.out.println(p.apply(100));
+        Boolean s = p.test(100);
+        System.out.println(s);
+    // Integer s=p.test(100);
+//      if(s==1){
+//           System.out.println("false");
+//      }else{
+//           System.out.println("true");
+//      }
+ //System.out.println(p.apply(100));
     }
 }
 /*   A.Option A

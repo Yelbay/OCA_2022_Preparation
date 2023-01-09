@@ -15,13 +15,13 @@ package q177;
 				
 			
 //	/* insert code snippet here */
-//    Bird p = new Peacock(); //dance gelmiyor
-//  Bird b = new Bird();   Peacock p = (Peacock) b;//Bird cannot be cast to q177.Peacock
+  Bird b = new Peacock(); //dance gelmiyor
+ // Bird b = new Bird();   Peacock p = (Peacock) b;//Bird cannot be cast to q177.Peacock
 //	//at q177.Peacock
 // Peacock p = new Peacock (); Bird p = (Bird) b;
 //
-             Bird b = new Peacock ();
-			 Peacock p = (Peacock) b;
+			//	Peacock p = new Peacock ();
+		Peacock p = (Peacock) b;
 			p.fly();
 			p.dance();
 

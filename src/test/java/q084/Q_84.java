@@ -11,7 +11,7 @@ public class Q_84 {
 //
 //	int array3[]=new int[] {1,2,3};			//C
 //
-//	int array4[]= new int[3]; array4= {1,2,3,5};	//D
+//	int array4[]= new int[3]; array4= {1,2,3};	//D
 //  int array5[]=new int []{1,2,3};			//E
 //	}
 

@@ -11,9 +11,9 @@ public class App {
 		myNum = Integer.parseInt(myStr);
 	}catch (NumberFormatException ne) {
 		System.err.println("Error");
-		System.out.println("myStr: " + myStr + ", myNum: "+myNum);
-	}
 
+	}
+		System.out.println("myStr: " + myStr + ", myNum: "+myNum);
     
 	}
 	public static void main(String[] args) {

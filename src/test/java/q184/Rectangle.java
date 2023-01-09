@@ -8,7 +8,7 @@ public class Rectangle {
     public void setLength(double length) {
 
         this.length = length;
-//        setArea();
+        setArea();
     }
 
     public void setHeigth(double heigth) {
@@ -35,8 +35,8 @@ A.	Call the setArea method at the end of the setHeight method.
 B.	Call the setArea method at the beginning of the setHeight method.
 C.	Call the setArea method at the end of the setLength method.
 D.	Call the setArea method at the beginning of the setLength method.
-E.	Change the setArea method to private.
-F.	Change the area field to public.
+E.	Change the setArea method to private.==> setter methods cannot be privite
+F.	Change the area field to public.==>private olmali encapculation yapilmis
 Answer: AC
 
  */

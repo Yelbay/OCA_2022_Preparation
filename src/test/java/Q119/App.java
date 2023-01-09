@@ -17,6 +17,7 @@ public class App {
         App t=new App();
         String greet="Good Luck!";
       System.out.println(t.greet);
+
     }
 }
 /*What is the result?

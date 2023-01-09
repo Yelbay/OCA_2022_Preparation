@@ -11,7 +11,7 @@ public class Q037 {
 				continue; // when matched goes back in to loop
 //				count++; // cannot come after continue
 			}
-			System.out.println(count + " Found");
+			//System.out.println(count + " Found");
 		}
 		System.out.println(count + " Found");
 	}

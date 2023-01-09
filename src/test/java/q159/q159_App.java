@@ -10,7 +10,7 @@ public class q159_App {
 
     public void method(Book x, int k) {
         x.pages = 100;
-        this.count = k;
+        this.count =200;
 
     }
 
@@ -18,9 +18,9 @@ public class q159_App {
         q159_App obj = new q159_App();
         Book objBook = new Book();
 
-        System.out.println(objBook.pages + ":" + obj.count);
+        System.out.println(objBook.pages + ":" + obj.count);//0:0
         obj.method(objBook, obj.count);
-        System.out.println(objBook.pages + ":" + obj.count);
+        System.out.println(objBook.pages + ":" + obj.count);// 100:200
 
 
     }
@@ -31,5 +31,5 @@ public class q159_App {
 //	C. 0:0 100:200
 //	D. null:null 100:null
 
-
+//	C. 0:0 //	C. 0:0 100:200 dogru cevap bu sekilde
 //A

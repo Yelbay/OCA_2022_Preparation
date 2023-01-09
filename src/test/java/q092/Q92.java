@@ -5,9 +5,11 @@ public class Q92 {
 
     public static void main(String[] args) {
         //line n1
-//    	String x = "1";
-//    	Integer x = new Integer("1");
-        byte x = 1;
+
+ 	//Integer x = new Integer("1");
+        Short x = 1;
+    //  byte x = 1;
+      //  short x = 1;
         switch (x) {
             case 1:
                 System.out.println("One");
@@ -31,6 +33,9 @@ C. String x = "1";
 D. long x = 1;
 E. double x = 1;
 F. Integer x = new Integer("1");
+*
+*      //   String x = "1";
+*
 Answer: ABF
 *  */
 

@@ -14,8 +14,7 @@ class C1 extends C2 implements I {
       public static void main (String[]args){
         	C2 obj1 = new C1();
             I obj2 = new C1();
-
-            C2 s =  (C2)obj2;  //class'a interface in objectini assign etmis o yuzden hata verir.// we cannot assign an interface to a class.
+            C2 s = ( C2)obj2;  //class'a interface in objectini assign etmis o yuzden hata verir.// we cannot assign an interface to a class.
             I t = obj1;   //class'a class i,  interface e interface i assign yapabiliriz
 
             t.displayI();

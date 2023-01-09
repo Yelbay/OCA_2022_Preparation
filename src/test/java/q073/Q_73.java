@@ -5,7 +5,8 @@ import java.time.LocalDate;
 public class Q_73 {
 	public static void main(String[] args) {
         LocalDate date= LocalDate.of(2012, 1, 30);
-        date.plusDays(10);
+        //date=soruda bu yok assigne edilmemis o yuzden degismez
+                date.plusDays(10);
         System.out.println(date);
     }
 

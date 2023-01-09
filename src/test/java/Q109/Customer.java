@@ -14,7 +14,7 @@ public class ElectricAccount {
 
     //line1
     public void addKWh(double kWh) {
-        if (kWh > 0) {
+        if (kWh>0) {
             this.kWh += kWh;
             this.bill = this.kWh * this.rate;
         }
@@ -46,7 +46,7 @@ A. Option A
   B  public void addKWh(double kWh){
       if(kWh>0){
       this.kWh+=kWh;
-      this.bill=this.kWh*this.rate; }}
+      this.bill=this.kWh * this.rate; }}
   C  private void addKWh(double kWh){
        if(kWh > 0){
           this.kWh+=kWh;

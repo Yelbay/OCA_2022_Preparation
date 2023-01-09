@@ -23,8 +23,8 @@ public class Q207 {
 	        arr [1] = new int [] {1, 3};
             // {{1,3,5,7},{1,3}}
 	        for (int[] a : arr) {
-	            for (int i : a){
-	                System.out.print(i + " ");
+	            for (int i=0;i<arr.length;i++){
+	                System.out.print(a[i] + " ");
 
 	            }
 	            System.out.println();

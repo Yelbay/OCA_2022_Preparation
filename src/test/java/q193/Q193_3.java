@@ -7,7 +7,7 @@ public class Q193_3 {
             sum = sum + xVal;
             System.out.println("The sum of "+xVal + " number is: " +sum);
         }
-
+     //   System.out.println("The sum of "+xVal + " number is: " +sum); xval loop disinda kullanilmis
        
     }
 }

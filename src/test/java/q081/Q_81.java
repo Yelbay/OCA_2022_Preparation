@@ -25,6 +25,7 @@ public class Q_81 {
 		//E.
 		        int y2=100;
 		        float flt5=(float)y2;
+
 		}	
 			
 			

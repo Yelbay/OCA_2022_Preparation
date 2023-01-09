@@ -3,7 +3,7 @@ package q199;
 public class Q199 {
     public static void main(String[] args) {
         String stuff = "TV";
-        String res = null;
+        String res =null;
 
         if (stuff.equals("TV")) {
             res = "Walter";

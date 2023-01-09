@@ -29,7 +29,7 @@ class A {
             A b1 = new A();
             A b2 = new C();
             A b3 = (B) b2;  // line n1 C can not cast to B
-            b1 = (A) b2;  // line n2
+            b1 = (A) b2;
             b1.test();
             b3.test();
             

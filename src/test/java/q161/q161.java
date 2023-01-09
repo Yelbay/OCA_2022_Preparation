@@ -7,8 +7,8 @@ public class q161 {
 //		String tmAuthor=author,author="MC Donald";
 		Double price =200D;
 		Integer pages =20;
-		
-		
+
+		System.out.println(price);
 
 	}
 

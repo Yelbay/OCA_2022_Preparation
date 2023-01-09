@@ -7,14 +7,15 @@ interface Readable {
 }
 
 abstract class Book implements Readable {  		// line n1
-	public void readBook() { }	
+	public void readBook() { }
 																		// line n2  // abstract class oldugu icin setBookMark();'i implement etmesine gerek yok.  
 }
-//class EBook extends Book { 								// line n3
-//	public void readBook() { }
-//																		// line n4
-//
-//}
+class EBook extends Book {
+	// line n3
+	 public void readBook(){}
+    public void setBookMark(){}																// line n4
+
+}
 
 /* 
  * Which option enables the code to compile? 

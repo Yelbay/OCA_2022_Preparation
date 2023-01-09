@@ -7,8 +7,9 @@ public class Q_78 {
 		String str3="";
 		for (String str:str2) {
 			str3=str3+str;
-			System.out.println(str3);
+
 		}
+		System.out.println(str3);
 		boolean b1= (str1.equals(str3));
 		boolean b2=(str1==str3);
 		System.out.println(b1+", "+b2);

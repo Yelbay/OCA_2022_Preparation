@@ -5,9 +5,9 @@ public class Q167 {
 		
 	
 	int x= 100;
-	int a=x++;
-	int b=++x;
-	int c=x++;
+	int a=x++;//a=100
+	int b=++x;//b=102
+	int c=x++;//102 x=103
 	int d= (a<b)? (a<c)? a: (b<c) ? b: c: x;
 	System.out.println(d);
 	

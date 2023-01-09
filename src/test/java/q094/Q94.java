@@ -15,7 +15,7 @@ class Person {
     }
 
     public Person(String name, int age) {    // line n2
-        setName(name);
+      setName(name);
         setAge(age);
     }
 

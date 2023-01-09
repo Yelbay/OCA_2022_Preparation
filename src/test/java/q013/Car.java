@@ -17,7 +17,7 @@ class Vehicle{
 		super(10);		// line n2
 	}
 	Car(int y){
-		super(y); 
+		super(y);
 		this.y =y;
 
 		//System.out.println(x);

@@ -15,11 +15,9 @@ public class App {
 		App.process();
 		System.out.println(firstObj.bar);
 
-
 		App secondObj = new App();
 		App.process();
 		System.out.println(secondObj.bar);
-
 	}
 
 }

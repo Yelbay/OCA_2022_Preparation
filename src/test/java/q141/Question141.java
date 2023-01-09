@@ -15,11 +15,11 @@ public class Question141 {
         }
         catch (Exception e){
             System.out.println("Invalid Name");
-            //e.printStackTrace(); //con
+            e.printStackTrace(); //con
         }
-//        for (String p : pwd){   //pwd[] = {omas, null, null} 2.create edilen array pwd
-//            System.out.println(p);
-//        }
+        for (String p : pwd){   //pwd[] = {omas, null, null} 2.create edilen array pwd
+            System.out.println(p);
+        }
 	}
     //What is result?
 

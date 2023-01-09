@@ -14,7 +14,7 @@ public class Test {
         int x=9,y=5;
         Test obj=new Test(x,y);
         System.out.println(x+" "+y);
-//        System.out.println(obj.x+" "+obj.y); // obj.x=81 obj.y=25
+        System.out.println(obj.x+" "+obj.y); // obj.x=81 obj.y=25
     }
 }/*what is the result?
 A. 9 5

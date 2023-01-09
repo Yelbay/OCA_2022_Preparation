@@ -9,7 +9,7 @@ public class Q16_2 {
 		LocalDateTime dt = LocalDateTime.of(2014,01,12,01,01,01,01334565456);
 		dt = dt.plusDays(30);  // assigned to dt
 		dt = dt.plusMonths(1); // assigned to dt
-		System.out.println(dt.format(DateTimeFormatter.ISO_DATE));
+		System.out.println(dt.format(DateTimeFormatter.ISO_DATE));//burda date derse sadece date i verir.
 	}
 }
 //What is the result?

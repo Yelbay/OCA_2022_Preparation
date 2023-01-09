@@ -4,14 +4,16 @@ public class CheckingAccount {
 	public int amount;
 	// line n1
 		public CheckingAccount(){
-//		this.amount = 100;
-			amount = 100;
+		//this.amount = 100;
+		//	amount = 100;
 
 		}
 
 	public static void main(String[] args) {
 		CheckingAccount acc = new CheckingAccount();
 		// line n2
+
+		//acc.amount=100;
 		System.out.println(acc.amount);
 	}
 }

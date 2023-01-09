@@ -1,6 +1,8 @@
 package q135;
 
 
+import java.util.Arrays;
+
 class Planet {
 	public String name;
 	public int moons;
@@ -9,9 +11,9 @@ class Planet {
 		this.name = name;
 		this.moons = moons;
 	}
-//	public String toString(){  //toString methodu override yaparsak planet i yazdirabiliriz
-//		return name+moons;
-//	}
+	public String toString(){  //toString methodu override yaparsak planet i yazdirabiliriz
+		return name+moons;
+	}
 }
 
 public class Question135 {

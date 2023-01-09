@@ -6,7 +6,7 @@ public class Q155 {
 
 	public static void main(String[] args) {
 		int wd=0;
-		String days[] = {"sun","mon","wed","sat"};
+		String days[] = {"sun","mon","wed","sat"};//counter gibi dusun break yoksa sonuna kadar gider
 		for (String s:days) {
 			switch (s) {
 			case"sat":
@@ -18,6 +18,7 @@ public class Q155 {
 			case"wed":
 				wd+=2;
 			}
+//			System.out.println(wd);
 		}
 		System.out.println(wd);
 				

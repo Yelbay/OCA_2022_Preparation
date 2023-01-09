@@ -18,7 +18,7 @@ public class Test {
 		int x = 3, y =5;
 	Test objTest = new Test(x, y);
 
-	System.out.println(x + " " + y); // prints the local variables
+	System.out.println(objTest.x + " " + y); // prints the local variables
 
 	}
 }

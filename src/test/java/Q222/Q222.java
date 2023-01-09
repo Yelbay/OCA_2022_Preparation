@@ -15,7 +15,8 @@ public class Q222 {
         while(itr.hasNext()){
             String e=itr.next();
             if (e=="CH"){
-                break;
+
+               break;
             }
             System.out.println(e +" ");
         }

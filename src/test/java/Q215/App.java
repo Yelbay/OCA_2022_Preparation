@@ -8,7 +8,7 @@ public class App {
              obj.open();
              obj.process();
                   //insert code here
-             //throw new LogFileException ();
+            // throw new LogFileException ();
          }catch (Exception e){
              System.out.println("completed.");
          }

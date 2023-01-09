@@ -11,6 +11,7 @@ public class Q042 {
 		
 		sb.delete(1,sb.length() );
 		//sb.deleteCharAt(1);
+
 		System.out.println("after delete: " + sb);
 
 	}

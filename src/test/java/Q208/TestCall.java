@@ -13,8 +13,8 @@ class Caller {
 public  class TestCall{
     public static void main(String[] args) {
         Caller c=new Caller();
-//        c.start(); //line 1
-//        c.init(); //line 2
+//      c.start(); //line 1
+//      c.init(); //line 2
     }
 }
 /*

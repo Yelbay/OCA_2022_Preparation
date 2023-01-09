@@ -1,16 +1,17 @@
 package q146;
 
+import java.util.Arrays;
+
 public class Question146 {
 
     public static void main(String[] args) throws Exception {
 
         String[] strs = new String[2];
-		strs[0] = "A";
         int idx = 0;
         for (String s : strs) {
 			strs[idx].concat("element " + idx);
 			idx++;
-//            System.out.println(idx);
+
 			//we can not concat if array is null bos olan array e concat yapamiyrz
 //
 //		for (String s : strs) {

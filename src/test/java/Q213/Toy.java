@@ -11,7 +11,7 @@ abstract class Toy {
         /*  code goes here  */
     }
 
-//    Toy getToy() {
+//    final Toy getToy() {
 //        return new Toy(); // We cannot creat an instance of an abstract class.
 //    }
 //    c

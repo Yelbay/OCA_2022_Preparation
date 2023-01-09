@@ -16,7 +16,7 @@ B. Requirements 1, 2, and 3 can be implemented by using the standard for loop.
 C. Requirements 2 and 3 CANNOT be implemented by using the standard for loop.
 D. Requirement 2 can be implemented by using the enhanced for loop.
 E. Requirement 3 CANNOT be implemented by using either the enhanced for loop or the standard for loop.
-Answer: B C
+Answer: B d
 	 */
 //I think answer BD
 }

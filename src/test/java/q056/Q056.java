@@ -4,8 +4,8 @@ public class Q056 {
 
 	public static void main(String[] args) {
 		String string = " "; // there is white space , not empty
-		string=string.trim(); //// it is not assigned to string, no affect
-		System.out.println(string.contentEquals("") + " " + string.isEmpty());
+		string.trim(); //// it is not assigned to string, no affect
+		System.out.println(string.equals("") + " " + string.isEmpty());
 	}
 }
 //What is the result?

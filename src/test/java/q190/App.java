@@ -12,7 +12,7 @@ public class App {
         throw new E1();
     }
 
-    public void m2() { // You can throw any exception here to solve the problem.
+    public void m2()  { // You can throw any exception here to solve the problem.
 
         try {
             m1();

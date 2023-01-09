@@ -6,18 +6,21 @@ public class Test extends Acc {
 	    
 		
 		public static void main(String[] args) {
-	        Acc obj = new Acc();
+	        Acc obj = new Test();
 	        obj.s = 4;
-//	        obj.r = 5;
+//
+//		Test obj1=(Test)obj;
+//        //obj1.r=5;
+//
+//	        Acc obj2 = new Test();
+//	        obj2.s = 4;
+//	        ((Test) obj2).r = 5;
+//
+//
+       // Test obj1 = new Test();
+	             //   obj1.s = 4;
+				//	obj1.r = 5;
 
-	        Acc obj2 = new Test();
-	        obj2.s = 4;
-	        ((Test) obj2).r = 5;
-
-
-	        Test obj1 = new Test();
-	                obj1.s = 4;
-	                obj1.r = 5;
 
 
 
@@ -25,7 +28,7 @@ public class Test extends Acc {
 	// the sub class’ object was created then you could access to the protected variable.
 	// But the object was created from super class
 //	      Acc obj = new Test();
-	                obj.s = 4;
+//	                obj.s = 4;
 //	                obj.r = 5;
 	    }
 	}

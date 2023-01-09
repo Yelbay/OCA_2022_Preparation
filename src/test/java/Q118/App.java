@@ -3,10 +3,11 @@ package Q118;
 public class App {
     public static void main(String[] args) {
         String str1="Java";
-        String str2=new String("java");
+       String str2=new String("java");
+     //  String str2="java"; bunu ben koydum soruda yok
         //line1
-        if(str2.equals(str1.toLowerCase()))
-        
+        if(str2.equals(str1.toLowerCase()))//Equal
+           // if(str2==(str1.toLowerCase()))//Not equal == referansada bakar o yuzden esit degildir
        
         {
             System.out.println("Equal");

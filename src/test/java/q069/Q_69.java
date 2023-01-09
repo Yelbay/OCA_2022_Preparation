@@ -7,13 +7,13 @@ class Test {
     public static void main(String[] args) {
 
     String[][] chs = new String[5][2];
-    chs[0] = new String[5];
-    chs[1] = new String[2];
+    chs[0] = new String[2];
+    chs[1] = new String[5];
     int i = 97;
-       //System.out.println(chs[1].length);
+       System.out.println(chs.length);
 
     for (int a = 0; a < chs.length; a++) {
-        for (int b = 0; b < chs.length; b++) {
+        for (int b = 0; b < chs.length; b++) {//bu kisim 5 defa donmesi gerekiyor fakat ikinci indexte 2 eleman var
             chs[a][b] = " " + i;
             i++;
 

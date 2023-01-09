@@ -11,14 +11,14 @@ public class Q_152 {
         Iterator<String> itr = lst.iterator();
         while (itr.hasNext()) {
             String e = itr.next();
-            System.out.println(e);
+
             if (e == "C") {
                 break;
 
             } else {
+              //continue;
+              System.out.println(e);
 
-                System.out.println(e);
-                continue;
 
             }
 

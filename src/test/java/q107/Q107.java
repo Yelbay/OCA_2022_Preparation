@@ -12,6 +12,7 @@ public class Q107 {
 		        boolean a= new Boolean(Boolean.valueOf(args[0])); //iki deger alir icine string ve boolean
 		        boolean b= new Boolean(args[1]);
 		        System.out.print(a +" "  + b);
+
 		    }
 
 		}

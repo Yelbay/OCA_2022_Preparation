@@ -6,7 +6,7 @@ public class Question149 {
 //parseBoolean =Returns the value of this {@code Boolean} object as a boolean primitive.
 //stringi boolean a ceviriyor
       
-        bool[0] = new Boolean(Boolean.parseBoolean("1"));
+        bool[0] = new Boolean(Boolean.parseBoolean("True"));
          //null in degeri olmadigi icin false donusur
         bool[1] = new Boolean(null);
 

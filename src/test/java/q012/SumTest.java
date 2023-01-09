@@ -19,7 +19,7 @@ public class SumTest {
 	
 	public static void main(String[] args) {
 		doSum(10,  20);
-		doSum(10.0,  20.0); 
+		doSum(10.0,  20.0);
 		// int --> float --> double --> Integer
 		// if it was written as doSum(10.0f,  20.0f); it would go to float
 	}

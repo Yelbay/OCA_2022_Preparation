@@ -19,7 +19,7 @@ public class App {
 	}
 	public static void main(String[] args) {
 		App obj = new App();
-		obj.doStuff("9009");
+		obj.doStuff("9009");//
 
       //Answer C myStr: 9009, myNum: 7007
 	}

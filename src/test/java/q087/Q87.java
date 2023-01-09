@@ -19,7 +19,7 @@ class MarkList{
             obj2.num = 60;
             obj5.num = 80;
             graceMarks(obj2);
-//            System.out.println(obj2);
+          System.out.println(obj2);
         }
     }
 

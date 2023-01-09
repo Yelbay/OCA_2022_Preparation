@@ -24,6 +24,7 @@ public class Test {
 		for (Person p : list) {
 			if (predicate.test(p)) {
 				System.out.println(p.nameString + " ");
+			//	System.out.println(p.age +"");
 			}
 		}
 	}
@@ -31,13 +32,15 @@ public class Test {
 		List<Person> iList = Arrays.asList(new Person("Hank",  45),
 																new Person("Charlie", 40),
 																new Person("Smith", 38));
+
+		checkAge (iList, p-> p.getAge() > 40);
 		// Line n1
 		
 // Which code fragment, when inserted at line n1, enables the code to print Hank?
 		
-//		checkAge (iList, () -> p.getAge() > 40);
-//		checkAge (iList, Person p -> p.getAge() > 40);
-		checkAge (iList, p-> p.getAge() > 40);
+	//	checkAge (iList, () -> p.getAge() > 40);
+//	checkAge (iList, Person p -> p.getAge() > 40);
+//		checkAge (iList, p-> p.getAge() > 40);
 //		checkAge (iList, (Person p) -> {p.getAge() > 40});
 		
 

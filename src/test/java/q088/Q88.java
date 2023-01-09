@@ -4,7 +4,7 @@ public class Q88 {
 	public static void main(String[] args) {
         int x = 6;
         while (isAvailable (x)) {
-            System.out.print(--x);
+            System.out.print(--x);//4 3 2 1
 
        
 

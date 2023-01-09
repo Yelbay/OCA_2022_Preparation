@@ -8,8 +8,8 @@ public class Q106 {
 //			B. Error class is extendable. 
 //			C. Error is a RuntimeException. 
 //			D. Error is an Exception. 
-//			E. Error is a Throwable. 
+//			E. Error is a Throwable. `
 //			
 //			Answer:
-//				B C
+//				B E
 }

@@ -8,6 +8,7 @@ public class Q015 {
         /* insert code here*/
 //        String str2 = sb1.toString();
         String str2 = str1; // the objects are equalized
+
         System.out.println(str1 == str2); // == checks if the objects are equal, not their values
     }
 }

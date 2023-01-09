@@ -15,10 +15,10 @@ public class Questions145 { //Class name is SumTest
 	        System.out.println("float sum is " + (x + y));
 	    }
 
-	    public static void main(String[] args) {  //once primitive cagrilir
+	    public static void main(String[] args) {  //once primitive cagrilir ve en uygun olan
 
 	        doSum(10, 20);
-	        doSum(10.0, 20.0);
+	        doSum(10.0, 20.0);//f deseydi float olurdu
 
 	    }}
 	    

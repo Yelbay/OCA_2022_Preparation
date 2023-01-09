@@ -15,13 +15,23 @@ public class C extends A {
     }
 
     public static void main(String[] args) {
-        A b1=new A();
-        A b2=new C();
-
-        b1=(A)b2;      //line1
-        A b3= b2;   //line2 C cannot be cast to Q116.B
+        A b1=new A();//b1 dedigimizde atanin metodlari cikar
+        A b2=new C();//her cocuk atasiyla aynidir
+        A b4=new B();
+        B b5=(B)b4;
+        b5.test();//B
+        b1=(A)b2;//C
         b1.test();
-        b3.test();
+        C m=new C();
+        b2.test();//eski==>C
+        b2=(A)b1;//yeni==>A b2 test dersek artik A yazar
+        b2.test();//yeni==>A
+        //A d=new A();
+       //  C f=(C)d; //diyemeyiz cunku  d  tamamen A clasina ait cocugun esyalarini parent kullanamz
+        b1.test();//A
+       // A b3=(A) b2;//line2 CB b3=(B) b2; cannot be cast to Q116.B cocukjlar birbirine ulasamaz b2 yi (C) ye ve (A) ya cast yapabilirsin
+       b1.test();
+        ///b3.test();
     }
 }
 /*What is the result?

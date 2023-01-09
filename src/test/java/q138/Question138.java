@@ -17,6 +17,7 @@
 //		 Answer: D
 //		 
 	
-
+//C. It can run on any platform that has the Java Runtime Environment.
+//        D. It can run on any platform that has a Java compiler.
 	
 

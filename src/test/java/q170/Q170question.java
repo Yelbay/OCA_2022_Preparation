@@ -26,7 +26,7 @@ public class Q170question {
 //				 manager.budget = 1_000_000;
 //				manager.stockOption = 500;
 //				 Director.stockOptions = 1_000;
-//
+//Bu soruda cocuklar analarinin ve kendilerinin metodlarini kullanir fakat analar cocuklarinkini kullanamaz dikkat
 //				//Answer: C E
 
 

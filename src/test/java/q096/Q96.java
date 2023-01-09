@@ -14,7 +14,7 @@ public class Q96 {
 			break;
 		case "2" :
 			discount = price * 0.5;
-//			continue;
+//		continue; switch statement da continue olmaz
 		default:
 			System.out.println("Thank you!");
 

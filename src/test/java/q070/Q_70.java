@@ -2,8 +2,23 @@ package q070;
 
 public class Q_70 {
 	public static void main(String[] args) {
+        int x = 10;
+        int y=++x;
+       //  ++x;//11
+        int z = 0;
+
+        if(y >= 10 | y<=++x){
+            z = x;
+        }else {
+            z = ++x;
+        }
+        System.out.println(z);
+
+
+  }
+//    public void top(){
 //        int x = 10;
-//         ++x;//11
+//        ++x;//11
 //        int z = 0;
 //
 //        if(z >= 10 | z<= ++x){
@@ -14,23 +29,9 @@ public class Q_70 {
 //        System.out.println(z);
 
 
-  }
-    public void top(){
-        int x = 10;
-        ++x;//11
-        int z = 0;
-
-        if(z >= 10 | z<= ++x){
-            z = x;
-        }else {
-            z = x++;
-        }
-        System.out.println(z);
-
-
     }
 
-}
+
 /*
 What is the result?
 A. 11

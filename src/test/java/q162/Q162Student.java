@@ -14,7 +14,7 @@ class Test {
         s1 = s3;
         s3 = s2;
 	    s2=null;
-        System.out.println();
+        System.out.println(s1);
 
     }
 

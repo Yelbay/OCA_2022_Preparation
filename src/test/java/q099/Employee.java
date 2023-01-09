@@ -16,9 +16,9 @@ public Employee (String name,int age) {
 	}
 
 	public Employee (String name, int age, int salary) {
-	this(name,age);
+	//this(name,age);
 	setSalary (salary);
-//		   //this üst satırda olursa hata vermez.
+//this(name,age); //üst satırda olursa hata vermez.
 
 	}
 

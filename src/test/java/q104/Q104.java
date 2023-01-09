@@ -7,6 +7,7 @@ public class Q104 {
 	
 	//Base.java:
 	class Base{
+
 	    public void test(){
 	        System.out.println("Base ");
 	    }
@@ -14,6 +15,7 @@ public class Q104 {
 
 	// DerivedA.java:
 	class DerivedA extends Base {
+
 	    public void test() {
 
 	    	System.out.print("DerivedA");
@@ -21,17 +23,21 @@ public class Q104 {
 	}
 	//DerivedB.java:
 	class DerivedB extends DerivedA {
+
 	    public void test () {
 	        System.out.print("DerivedB");
 	    }
 	    public static void main (String[] args) {
-	        Base b1 = new DerivedB();
-	        Base b2 = new DerivedA();
-	        Base b3 = new DerivedB();
+	        Base b1 = new DerivedB();//Base A B
+			b1.test();
+	        Base b2 = new DerivedA();//Base A
+	        Base b3 = new DerivedB();//Base A B
 	        Base b4 = b3; //new DerivedB();
-	        b1 =  (Base)b2; //new DerivedA();
+
+	        b1 =(Base) b2; //new DerivedA();
 	        b1.test();
 	        b4.test();
+
 	    }
 
 	}

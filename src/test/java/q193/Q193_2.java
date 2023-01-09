@@ -3,11 +3,12 @@ package q193;
 public class Q193_2 {
     public static void main(String[] args) {
         int sum = 0;
-       int xVal;//ben ekledim
-        for ( xVal = 1; xVal <= 5; xVal++){
+       //int xVal;//ben ekledim
+        for ( int xVal = 1; xVal <= 5; xVal++){
             sum = sum + xVal;
+            System.out.println("The sum of "+xVal + " number is: " +sum);
         }
-        System.out.println("The sum of "+xVal + " number is: " +sum);
+      //  System.out.println("The sum of "+xVal + " number is: " +sum);
         // xVal is in loop so it is not visible outside of the loop
         // xVal must be declared as local variable --> The sum of 6 number is: 15
         // or syso must be in loop

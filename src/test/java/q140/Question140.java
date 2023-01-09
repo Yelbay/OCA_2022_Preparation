@@ -8,10 +8,10 @@ public class Question140 {
 	        float fVar = 100.100f;
 	        double dVar = 123;
 	          fVar = iVar;//kucuk buyuge olur
-//          iVar = fVar; //buyuk kuvcuge olmaz
-//	          fVar = dVar;
+//         iVar = fVar; //buyuk kuvcuge olmaz
+//          fVar = dVar;
 //         dVar = fVar;
-//          iVar = dVar;
+//         iVar = dVar;
 //	          dVar = iVar;
 
 	          /*

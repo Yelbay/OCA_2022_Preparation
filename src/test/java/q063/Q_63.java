@@ -13,7 +13,7 @@ public class Q_63 {
 	    }
 	}
 	class ReportTool extends Tool {
-     public void export() {                      // line n2
+  public void export() {                      // line n2 child parent dan daha genis yada ayni acces modifier olmali
 //	        System.out.println("RTool::export");
 	    }
 

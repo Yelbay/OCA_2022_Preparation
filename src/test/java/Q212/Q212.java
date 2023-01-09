@@ -9,10 +9,11 @@ public class Q212{
         P1 obj=new P1();
         P2 obj2=new P2();
         I1 obj3=new P2();
-        boolean r1=obj instanceof P2;
-        boolean r2=obj2 instanceof P1;
+        boolean r1=obj instanceof P2;//f
+        boolean r2=obj2 instanceof P1;//t
         boolean r3=obj3 instanceof I1;
-        System.out.println(r1+":"+r2+":"+r3);
+        boolean r4=obj3 instanceof P1;//P2 de dogru
+        System.out.println(r1+":"+r2+":"+r3+":"+r4);
     //}
     /*
     What is the result?

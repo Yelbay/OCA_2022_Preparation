@@ -10,7 +10,7 @@ public class Q008_2 {
 					continue;
 				}			
 			}
-		break;
+	continue;
 		}	
 	}}
 //What is the result? 

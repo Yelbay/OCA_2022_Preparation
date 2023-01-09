@@ -12,7 +12,7 @@ public class Q030 {
 		names.add("Rick");
 		names.add("Bran");
 
-		if (names.remove("Bran")) {
+		if (names.remove("Bran")) {//ilk Bran i remove eder sonraki kalir
 			names.remove("Jon");
 		}
 		System.out.println(names);

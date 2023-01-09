@@ -14,19 +14,19 @@ public class Q126 {
 //		}
 
 //B.
-//	do {
-//	x--;
-//	System.out.print(array[x]);//ArrayIndexOutOfBoundsException
-//			            //Index -1 out of bounds for length 5
-//	}while (x>=0);
+	do {
+	x--;
+	System.out.print(array[x]);//ArrayIndexOutOfBoundsException
+			            //Index -1 out of bounds for length 5
+	}while (x>=0);
 
 
 //C.
-	 while (x>0) {    // ArrayIndexOutOfBoundsException
-	System.out.print(array[x]);
-//		Index 5 out of bounds for   length 5
-	x--;
-	}
+//	 while (x>0) {    // ArrayIndexOutOfBoundsException
+//	System.out.print(array[x]);
+////		Index 5 out of bounds for   length 5
+//	x--;
+//	}
 
 //D.
 

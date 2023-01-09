@@ -1,13 +1,16 @@
 package q193;
 
 public class Q193 {
+
     public static void main(String[] args) {
         int sum = 0;
-        int xVal = 1;
-        for ( xVal = 1; xVal <= 5; xVal++){
+       // int xVal = 1;
+        for (int  xVal = 1; xVal <= 5; xVal++){//1 2 3 4 5
             sum = sum + xVal;
+
         }
-        System.out.println("The sum of "+xVal + " number is: " +sum);
+       // System.out.println("The sum of "+xVal + " number is: " +sum);loopun disinda olduguicin xval gorunmez loop diinda assigne edilmeli o yuzden compile time error verir
+
         // xVal is in loop so it is not visible outside of the loop
         // xVal must be declared as local variable --> The sum of 6 number is: 15
         // or syso must be in loop

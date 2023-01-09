@@ -1,6 +1,6 @@
 package Q112;
 public class App {
-   static int count; //normalde static yok burda
+    static int count; //normalde static yok burda  staticler staticlerle gezer
     public static void displayMsg(){
         count++;                                         //line1
         System.out.println("Welcome"+"Visit Count"+count); //line2
